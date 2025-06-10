@@ -87,10 +87,7 @@ AI Dating App/
     
     ```
 
-2. **Configuration: Environment Variables**
-
-  #### Create a `.env` file in the root directory:
-
+2. **Configuration: Environment Variables** Create a `.env` file in the root directory
    ```bash
     # API Configuration
     API_TITLE=AI Dating App
