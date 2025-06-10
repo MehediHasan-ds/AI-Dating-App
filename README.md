@@ -95,7 +95,11 @@ dating_app/
 ├── app/
 │   ├── api/
 │   │   ├── endpoints/      # API route handlers
+│   │   │   └── chatbot.py
+│   │   │   └── dating.py
 │   │   └── models/         # Pydantic schemas
+│   │   │   └── chatbot_schema.py
+│   │   │   └── dating_schema.py
 │   ├── core/
 │   │   ├── agents.py       # LLM agents for processing
 │   │   ├── config.py       # App configuration
@@ -103,7 +107,7 @@ dating_app/
 │   ├── services/
 │   │   ├── dating_services.py  # Core dating logic
 │   │   └── chat_services.py    # Chat/LLM logic
-│   └── database/
+│   └── Database/
 │       └── users.json      # User data
 ```
 
