@@ -2,6 +2,9 @@
 
 An intelligent dating platform that uses Natural Language Processing and Machine Learning to provide semantic profile matching and AI-powered conversation assistance.
 
+## Interactive User Interface
+!['UI'](images/ui.png)
+
 ## Features ✨
 
 - **Natural Language Search**: Search for matches using everyday language instead of rigid filters
