@@ -111,11 +111,13 @@ AI Dating App/
     # Search Configuration
     DEFAULT_TOP_K=5
     SIMILARITY_THRESHOLD=0.3
+    
     ```
 
 3. **Create virtual environment**
    ```bash
     python -m venv venv
+    
     ```
 4. **Activate virtual environment**
    ```bash
@@ -123,21 +125,25 @@ AI Dating App/
     venv\Scripts\activate
     # macOS/Linux:
     source venvbin/activate
+    
     ```
 
 5. **Install dependencies**
    ```bash
    pip install -r requirements.txt
+   
    ```
 
 6. **Start the backend**
    ```bash
    uvicorn main:app --reload --host 0.0.0.0 --port 8000
+   
    ```
 
 7. **Start the frontend** (in another terminal)
    ```bash
    streamlit run frontend.py --server.port 8501
+   
    ```
 ### ACCESS URLS
 
@@ -156,6 +162,7 @@ curl -X POST "http://localhost:8000/api/v1/dating/search" \
     "user_id": "user123",
     "top_k": 5
   }'
+
 ```
 
 ### Generate Conversation Starter
@@ -165,6 +172,7 @@ curl -X POST "http://localhost:8000/api/v1/chat/starter" \
   -d '{
     "target_user_id": "user456"
   }'
+
 ```
 
 ### Get AI Chat Response
@@ -175,6 +183,7 @@ curl -X POST "http://localhost:8000/api/v1/chat/response" \
     "message": "What should I talk about with someone who loves photography?",
     "context": "They are a professional photographer who travels a lot"
   }'
+
 ```
 
 ### User Data Format
@@ -198,6 +207,7 @@ The application expects user data in JSON format. Example user profile:
     "interests": ["outdoors", "technology", "food"]
   }
 }
+
 ```
 
 ## Development 👩‍💻
@@ -217,6 +227,7 @@ pip install pytest pytest-asyncio httpx
 
 # Run tests
 pytest tests/
+
 ```
 
 ## Performance 
