@@ -1,0 +1,122 @@
+[
+  {
+    "id": "user_001",
+    "name": "Sarah Johnson",
+    "age": 28,
+    "location": "New York, NY",
+    "interests": ["photography", "hiking", "yoga", "traveling", "cooking"],
+    "profession": "Software Engineer",
+    "education": "Computer Science, NYU",
+    "relationship_type": "serious",
+    "bio": "Love exploring new places and trying different cuisines. Looking for someone who shares my passion for adventure and has a good sense of humor.",
+    "preferences": {"age_range": [25, 35], "location_radius": 50}
+  },
+  {
+    "id": "user_002",
+    "name": "Michael Chen",
+    "age": 32,
+    "location": "San Francisco, CA",
+    "interests": ["rock climbing", "craft beer", "startups", "reading", "music"],
+    "profession": "Product Manager",
+    "education": "MBA, Stanford",
+    "relationship_type": "serious",
+    "bio": "Entrepreneur at heart, love building things and meeting new people. Weekend rock climber and beer enthusiast.",
+    "preferences": {"age_range": [26, 38], "location_radius": 25}
+  },
+  {
+    "id": "user_003",
+    "name": "Emma Rodriguez",
+    "age": 25,
+    "location": "Austin, TX",
+    "interests": ["art", "festivals", "dancing", "food", "fitness"],
+    "profession": "Graphic Designer",
+    "education": "Fine Arts, UT Austin",
+    "relationship_type": "casual",
+    "bio": "Creative soul who loves Austin's music scene. Always down for live shows and great food trucks.",
+    "preferences": {"age_range": [23, 30], "location_radius": 30}
+  },
+  {
+    "id": "user_004",
+    "name": "David Kim",
+    "age": 29,
+    "location": "Seattle, WA",
+    "interests": ["coffee", "board games", "programming", "hiking", "dogs"],
+    "profession": "Data Scientist",
+    "education": "Statistics, University of Washington",
+    "relationship_type": "serious",
+    "bio": "Coffee enthusiast and dog lover. Spend weekends exploring trails around Seattle. Looking for someone to share adventures with.",
+    "preferences": {"age_range": [25, 32], "location_radius": 40}
+  },
+  {
+    "id": "user_005",
+    "name": "Jessica Martinez",
+    "age": 31,
+    "location": "Miami, FL",
+    "interests": ["beach", "salsa dancing", "fitness", "travel", "photography"],
+    "profession": "Marketing Manager",
+    "education": "Business Administration, University of Miami",
+    "relationship_type": "serious",
+    "bio": "Beach lover and salsa dancer. Love capturing moments through photography and exploring new cultures.",
+    "preferences": {"age_range": [28, 35], "location_radius": 35}
+  },
+  {
+    "id": "user_006",
+    "name": "Alex Thompson",
+    "age": 26,
+    "location": "Denver, CO",
+    "interests": ["snowboarding", "craft beer", "music", "camping", "cooking"],
+    "profession": "UX Designer",
+    "education": "Design, Art Institute of Colorado",
+    "relationship_type": "casual",
+    "bio": "Mountain enthusiast who lives for powder days. Love good beer and great music. Always up for an adventure.",
+    "preferences": {"age_range": [23, 30], "location_radius": 50}
+  },
+  {
+    "id": "user_007",
+    "name": "Lisa Wang",
+    "age": 33,
+    "location": "Chicago, IL",
+    "interests": ["wine", "theater", "reading", "yoga", "cooking"],
+    "profession": "Financial Analyst",
+    "education": "Finance, Northwestern University",
+    "relationship_type": "serious",
+    "bio": "Wine lover and theater enthusiast. Enjoy quiet evenings with a good book or exploring Chicago's food scene.",
+    "preferences": {"age_range": [30, 38], "location_radius": 25}
+  },
+  {
+    "id": "user_008",
+    "name": "Ryan O'Connor",
+    "age": 27,
+    "location": "Boston, MA",
+    "interests": ["running", "craft beer", "history", "podcasts", "travel"],
+    "profession": "History Teacher",
+    "education": "History, Boston University",
+    "relationship_type": "serious",
+    "bio": "Marathon runner and history buff. Love sharing stories and discovering new places. Looking for someone intellectually curious.",
+    "preferences": {"age_range": [24, 32], "location_radius": 30}
+  },
+  {
+    "id": "user_009",
+    "name": "Amanda Foster",
+    "age": 24,
+    "location": "Los Angeles, CA",
+    "interests": ["acting", "yoga", "healthy living", "beach", "networking"],
+    "profession": "Actress",
+    "education": "Theater Arts, UCLA",
+    "relationship_type": "casual",
+    "bio": "Aspiring actress living the LA dream. Love staying active and meeting creative people. Always ready for the next adventure.",
+    "preferences": {"age_range": [22, 30], "location_radius": 40}
+  },
+  {
+    "id": "user_010",
+    "name": "James Wilson",
+    "age": 35,
+    "location": "Portland, OR",
+    "interests": ["craft beer", "cycling", "sustainability", "cooking", "gardening"],
+    "profession": "Environmental Engineer",
+    "education": "Environmental Engineering, Oregon State",
+    "relationship_type": "serious",
+    "bio": "Passionate about sustainability and craft beer. Love cycling around Portland and growing my own vegetables.",
+    "preferences": {"age_range": [30, 40], "location_radius": 35}
+  }
+]
