@@ -13,7 +13,7 @@ An intelligent dating platform that uses Natural Language Processing and Machine
 - **Intelligent Chat Assistant**: Get help crafting responses and maintaining engaging conversations
 - **Real-time Compatibility Scoring**: See percentage match scores based on deep profile analysis
 
-## Tech Stack 🛠️
+## Tech Stack
 
 ### Backend
 - **FastAPI**: High-performance async web framework
@@ -31,7 +31,7 @@ An intelligent dating platform that uses Natural Language Processing and Machine
 - **all-MiniLM-L6-v2**: Sentence embeddings for semantic search
 - **DialoGPT-small**: Conversational AI assistance
 
-## Architecture 🏗️
+## Architecture
 
 ```
 AI Dating App/
@@ -55,7 +55,7 @@ AI Dating App/
 └── README.md
 ```
 
-## Quick Start 🚀
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -66,7 +66,7 @@ AI Dating App/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/MehediHasan-ds/AI-Dating-App.git
    cd ai-dating-app
    ```
 
@@ -77,7 +77,7 @@ AI Dating App/
 
 3. **Access the services**
    - Backend API: http://localhost:8000
-   - Frontend UI: http://localhost:3000
+   - Frontend UI: http://localhost:8501
    - API Documentation: http://localhost:8000/docs
 
 ### Option 2: Local Development
