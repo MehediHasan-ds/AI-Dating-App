@@ -3,7 +3,8 @@
 An intelligent dating platform that uses Natural Language Processing and Machine Learning to provide semantic profile matching and AI-powered conversation assistance.
 
 ## Interactive User Interface
-!['UI'](images/ui.png)
+![UI](images/ui.png)
+[View Report](https://docs.google.com/document/d/1CKbBFuApHia6nEMWPNDuMK073nObnxp-ezSdr3sm5zk/edit?usp=sharing) 
 
 ## Features ✨
 
@@ -49,7 +50,7 @@ AI Dating App/
 │   ├── database/
 │   │   └── users.json      # User profile storage
 │   └── Dockerfile          # Backend container config
-├── frontend/               # Streamlit frontend (to be created)
+├── frontend.py               # Streamlit frontend
 ├── docker-compose.yml      # Multi-service orchestration
 ├── requirements.txt        # Python dependencies
 └── README.md
@@ -113,7 +114,8 @@ AI Dating App/
 
 3. **Create virtual environment**
    ```bash
-    python -m venv venv
+    python -3.11 
+    -m venv venv
     
     ```
 4. **Activate virtual environment**
